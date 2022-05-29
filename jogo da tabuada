@@ -1,0 +1,82 @@
+print( 'olá jogador')
+nome = (input("Digite seu nome: "))
+print('seja bem vindo ' + nome)
+jogar = (input("Deseja jogar?"))
+if jogar.lower() != 'sim':
+    quit()
+print( 'regras do jogo: o jogo é composto por 10 problemas matemáticos a cada acerto você ganha 1 ponto ao errar você perde q ponto faça 7 pontos para vencer ')
+pronto = (input("Podemos iniciar?"))
+if pronto.lower() != 'sim':
+    quit()
+pontos = 0
+questão1 = (input('quanto é 1+1?'))
+if questão1 == '2':
+    print ('correto')
+    pontos += 1
+else:
+    print ('incorreto')
+    pontos -= 1
+questão2 = (input('quanto é 1+2?'))
+if questão2 == '3':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão3 = (input('quanto é 1+3?'))
+if questão3 == '4':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão4 = (input('quanto é 1+4?'))
+if questão4 == '5':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão5 = (input('quanto é 1+5?'))
+if questão5 == '6':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão6 = (input('quanto é 1+6?'))
+if questão6 == '7':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão7 = (input('quanto é 1+7?'))
+if questão7 == '8':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão8 = (input('quanto é 1+8?'))
+if questão8 == '9':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão9 = (input('quanto é 1+9?'))
+if questão9 == '10':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+questão10 = (input('quanto é 1+10?'))
+if questão10 == '11':
+    print('correto')
+    pontos += 1
+else:
+    print('incorreto')
+    pontos -= 1
+print('você conseguiu ' + str (pontos) + " pontos")
